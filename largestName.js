@@ -1,47 +1,47 @@
-// let name1 = "Jhon";
-// let name2 = "Alexis";
+var name1 = "Jhon";
+var name2 = "Alexis";
 
-// let name1Length = name1.length;
-// let name2Length = name2.length;
+let name1Length = name1.length;
+let name2Length = name2.length;
 
-// if(name1Length > name2Length){
-//     console.log(name1.split('').reverse().join(''));
-// }
-// else{
-//     console.log(name2.split('').reverse().join(''));
-// }
+if(name1Length > name2Length){
+    console.log(name1.split('').reverse().join(''));
+}
+else{
+    console.log(name2.split('').reverse().join(''));
+}
 
-// let name1 = "Jhon";
-// let name2 = "Alexis";
+var name1 = "Jhon";
+var name2 = "Alexis";
 
-// function reverseName(name1, name2) {
-//   let name1Length = name1.length;
-//   let name2Length = name2.length;
+function reverseName(name1, name2) {
+  let name1Length = name1.length;
+  let name2Length = name2.length;
 
-//   if (name1Length > name2Length) {
-//     return name1.split("").reverse().join("");
-//   } else {
-//     return name2.split("").reverse().join("");
-//   }
-// }
-// let result = reverseName("jhon", "alexis");
-// console.log(result);
+  if (name1Length > name2Length) {
+    return name1.split("").reverse().join("");
+  } else {
+    return name2.split("").reverse().join("");
+  }
+}
+var result = reverseName("jhon", "alexis");
+console.log(result);
 
 
-// let str = "Alexis";
+let str = "Alexis";
 
-// let reversedString = '';
+let reversedString = '';
 
-// for(let i = 0; i < str.length; i++){
-//     const element = str[i];
-//     console.log(element);
-// }
-// console.log("-------------------------");
-// for(let i = str.length - 1; i >= 0; i--){
-//     const element = str[i];
-//     reversedString = reversedString + element;
-// }
-// console.log(reversedString);
+for(let i = 0; i < str.length; i++){
+    const element = str[i];
+    console.log(element);
+}
+console.log("-------------------------");
+for(let i = str.length - 1; i >= 0; i--){
+    const element = str[i];
+    reversedString = reversedString + element;
+}
+console.log(reversedString);
 
 
 
